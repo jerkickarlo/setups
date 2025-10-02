@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { color-scheme: dark; }
+html, body { @apply bg-black text-white; }
+.container-max { @apply max-w-7xl mx-auto px-4; }
+.card {@apply bg-neutral-900/70 backdrop-blur rounded-2xl border border-neutral-800 shadow-glow;}
+.input, .select {@apply bg-black border border-neutral-700 rounded-xl px-4 py-3 text-lg outline-none focus:ring-2 focus:ring-white transition;}
+.btn {@apply inline-flex items-center justify-center rounded-xl border border-white/20 px-5 py-3 text-sm font-semibold hover:-translate-y-0.5 hover:shadow-glow transition;}
+.brand {@apply font-extrabold tracking-tight text-white/90;}
+.gradient { background: radial-gradient(1200px 600px at 50% -10%, rgba(255,255,255,0.12), transparent 60%); }
+.hero-title {@apply text-5xl md:text-7xl font-extrabold leading-tight;}
+.subtle {@apply text-white/70;}
+.pill {@apply px-3 py-1 rounded-full border border-white/15 text-sm hover:bg-white/5 transition;}
+footer a {@apply underline text-white/80 hover:text-white;}
